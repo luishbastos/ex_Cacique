@@ -1,0 +1,113 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.compFilme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(136, 199, 155);
+}
+
+.Cinema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#descFilme {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#seta {
+  background-color: grey;
+  width: 300px;
+}
+
+#seta2 {
+  background-color: grey;
+  width: 300px;
+}
+
+.SalaCinema {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 300px;
+  background-color: rgb(97, 184, 184);
+}
+
+#cadEsq {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 230px;
+  margin-right: 20px;
+}
+
+#cadMeio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 270px;
+}
+
+#cadDir {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 230px;
+  margin-left: 20px;
+}
+
+#tipoCinema,
+#dataCinema,
+#numPessoas {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(97, 184, 184);
+  height: 30px;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.botaoCinemaItem {
+  display: flex;
+  background-color: rgb(97, 184, 184);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#expCadeira {
+  display: flex;
+  width: 300px;
+}
+
+.textCadeira {
+  background-color: rgb(97, 184, 184);
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 5px;
+  width: 50%;
+  height: 50px;
+}
+
+#quadTotal {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 50px;
+  font-weight: bold;
+}
